@@ -1,0 +1,5 @@
+C:\Users\11011105\google\quanta\RB4_Build\ctf\A72.exe
+C:\Users\11011105\google\quanta\RB4_Build\ctf\A72.dll
+C:\Users\11011105\google\quanta\RB4_Build\ctf\A72.deps.json
+C:\Users\11011105\google\quanta\RB4_Build\ctf\A72.runtimeconfig.json
+C:\Users\11011105\google\quanta\RB4_Build\ctf\A72.pdb

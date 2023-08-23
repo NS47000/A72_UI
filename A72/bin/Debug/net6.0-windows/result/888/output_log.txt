@@ -1,0 +1,14 @@
+
+C:\Users\11011105\google\quanta\UI\A72\A72\bin\Debug\net6.0-windows>call C:\Users\11011105\Anaconda3\condabin\activate.bat 
+
+C:\Users\11011105\google\quanta\UI\A72\A72\bin\Debug\net6.0-windows>conda.bat activate  
+
+(base) C:\Users\11011105\google\quanta\UI\A72\A72\bin\Debug\net6.0-windows>call conda activate py38 
+
+(py38) C:\Users\11011105\google\quanta\UI\A72\A72\bin\Debug\net6.0-windows>set allArguments=-S 888 -O 123 -D C:\Users\11011105\google\quanta\UI\A72\A72\bin\Debug\net6.0-windows\result\888\ -C 
+
+(py38) C:\Users\11011105\google\quanta\UI\A72\A72\bin\Debug\net6.0-windows>cd C:\Users\11011105\google\quanta\UI\A72\A72\bin\Debug\net6.0-windows\algorithm\ 
+
+(py38) C:\Users\11011105\google\quanta\UI\A72\A72\bin\Debug\net6.0-windows\algorithm>python main.py -S 888 -O 123 -D C:\Users\11011105\google\quanta\UI\A72\A72\bin\Debug\net6.0-windows\result\888\ -C 
+
+

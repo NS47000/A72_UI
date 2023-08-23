@@ -1,0 +1,5 @@
+image imfo.:ROI contour R
+Brightness,Done,
+CTF,Done,
+Contrast,Done,
+Uniformity,Done,

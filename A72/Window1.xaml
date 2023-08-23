@@ -1,0 +1,79 @@
+﻿<Window x:Class="A72.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:A72"
+        mc:Ignorable="d"
+        Title="CTF_result" Height="450" Width="800">
+
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <ListView x:Name="CTF_result_list"  Grid.Column="1" Grid.ColumnSpan="17" Grid.Row="2" Grid.RowSpan="22"  ItemsSource="{Binding}">
+            <ListView.View>
+
+                <GridView AllowsColumnReorder="true" ColumnHeaderToolTip="Employee Information">
+
+                    <GridViewColumn DisplayMemberBinding="{Binding Path=color}" Header="Colors" Width="100"/>
+                    <GridViewColumn DisplayMemberBinding="{Binding Path=fov_v_deg}" Header="Fov_v_deg" Width="100"/>
+                    <GridViewColumn DisplayMemberBinding="{Binding Path=fov_h_deg}" Header="Fov_h_deg" Width="100"/>
+                    <GridViewColumn DisplayMemberBinding="{Binding Path=orientation}" Header="Orientation" Width="100"/>
+                    <GridViewColumn DisplayMemberBinding="{Binding Path=spatial_period_lea_px}" Header="Spatial_period_lea_px" Width="130"/>
+                    <GridViewColumn DisplayMemberBinding="{Binding Path=ctf_percent}" Header="CTF_percent" Width="100"/>
+                </GridView>
+
+            </ListView.View>
+        </ListView>
+        <Grid HorizontalAlignment="Left"   VerticalAlignment="Top" />
+    </Grid>
+    
+</Window>
